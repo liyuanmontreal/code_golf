@@ -1,4 +1,5 @@
-import os,json
+import os,json,sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pandas as pd,matplotlib.pyplot as plt
 from pathlib import Path
 
